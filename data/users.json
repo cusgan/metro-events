@@ -1,0 +1,152 @@
+{
+    "null": {
+        "id": -1,
+        "username": "This User does not Exist",
+        "password": "?",
+        "usertype": 0,
+        "notifsNum": 0,
+        "notifs": [],
+        "events": []
+    },
+    "00": {
+        "id": 0,
+        "username": "Admin",
+        "password": "YWRtaW4xMjM=",
+        "usertype": 2,
+        "notifsNum": 1,
+        "notifs": [],
+        "events": []
+    },
+    "01": {
+        "id": 1,
+        "username": "Marianne",
+        "password": "bWFyaWFubmUxMjM=",
+        "usertype": 1,
+        "notifsNum": 5,
+        "notifs": {
+            "05": {
+                "id": 5,
+                "title": "Your event has been cancelled",
+                "body": "Message: Nothing will happen!",
+                "yes": null,
+                "no": "deleteNotif(1,5);"
+            }
+        },
+        "events": [
+            "1"
+        ]
+    },
+    "02": {
+        "id": 2,
+        "username": "Lucy",
+        "password": "bHVjeTEyMw==",
+        "usertype": 1,
+        "notifsNum": 0,
+        "notifs": [],
+        "events": [
+            "0"
+        ]
+    },
+    "03": {
+        "id": 3,
+        "username": "Gabrielle",
+        "password": "Z2FicmllbGxlMTIz",
+        "usertype": 0,
+        "notifsNum": 1,
+        "notifs": {
+            "01": {
+                "id": 1,
+                "title": "Request Accepted: Birthday Celebration",
+                "body": "Your request to join Birthday Celebration has been approved.",
+                "yes": null,
+                "no": "deleteNotif(3,1);"
+            }
+        },
+        "events": [
+            "0",
+            "1",
+            2
+        ]
+    },
+    "04": {
+        "id": 4,
+        "username": "Imma",
+        "password": "aW1tYTEyMw==",
+        "usertype": 0,
+        "notifsNum": 0,
+        "notifs": [],
+        "events": [
+            "1"
+        ]
+    },
+    "05": {
+        "id": 5,
+        "username": "Lily",
+        "password": "bGlseTEyMw==",
+        "usertype": 0,
+        "notifsNum": 7,
+        "notifs": {
+            "02": {
+                "id": 2,
+                "title": "Event Cancelled: My Event",
+                "body": "Nothing will happen!",
+                "yes": null,
+                "no": "deleteNotif(5,2);"
+            },
+            "05": {
+                "id": 5,
+                "title": "Event now Ongoing!",
+                "body": "The event:My Event has now started.",
+                "yes": null,
+                "no": "deleteNotif(5,5);"
+            },
+            "06": {
+                "id": 6,
+                "title": "Event is Done!",
+                "body": "The event: My Event is now over.",
+                "yes": null,
+                "no": "deleteNotif(5,6);"
+            },
+            "07": {
+                "id": 7,
+                "title": "Event is Done!",
+                "body": "The event: My Event is now over.",
+                "yes": null,
+                "no": "deleteNotif(5,7);"
+            }
+        },
+        "events": [
+            "0",
+            "1",
+            3,
+            4,
+            5
+        ]
+    },
+    "06": {
+        "id": 6,
+        "username": "Bambi",
+        "password": "YmFtYmkxMjM=",
+        "usertype": 1,
+        "notifsNum": 5,
+        "notifs": {
+            "02": {
+                "id": 2,
+                "title": "You're now an Organizer!",
+                "body": "Your request to be Organizer has been approved.",
+                "yes": null,
+                "no": "deleteNotif(6,2);"
+            },
+            "04": {
+                "id": 4,
+                "title": "Event Cancelled: My Event",
+                "body": "Nothing will happen!",
+                "yes": null,
+                "no": "deleteNotif(6,4);"
+            }
+        },
+        "events": [
+            3
+        ]
+    }
+}

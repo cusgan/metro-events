@@ -1,0 +1,141 @@
+{
+    "null": {
+        "id": -1,
+        "organizerID": -1,
+        "status": 4,
+        "name": "This Event does not exist.",
+        "type": "",
+        "desc": "",
+        "dateStart": "",
+        "dateEnd": "",
+        "participants": [],
+        "upvotes": [],
+        "reviews": []
+    },
+    "00": {
+        "id": 0,
+        "organizerID": "1",
+        "status": 2,
+        "name": "Christmas Party",
+        "type": "Party",
+        "desc": "Merry Christmas and Happy Holidays! Bring food to share!",
+        "dateStart": "2023-12-24-18-30",
+        "dateEnd": "2023-12-25-02-00",
+        "participants": [
+            "2",
+            "3",
+            "5"
+        ],
+        "upvotes": [
+            "2",
+            "3"
+        ],
+        "reviews": [
+            {
+                "userID": "2",
+                "content": "Had so much fun!"
+            },
+            {
+                "userID": "3",
+                "content": "Food was great! Merry Christmas!"
+            }
+        ]
+    },
+    "01": {
+        "id": 1,
+        "organizerID": "2",
+        "status": 2,
+        "name": "New Year's Eve Celebration",
+        "type": "Celebration",
+        "desc": "Let's come and welcome 2024 together :D",
+        "dateStart": "2023-12-31-20-00",
+        "dateEnd": "2024-01-01-12-00",
+        "participants": [
+            "1",
+            "3",
+            "4",
+            "5"
+        ],
+        "upvotes": [
+            "1",
+            "3",
+            "4"
+        ],
+        "reviews": [
+            {
+                "userID": "1",
+                "content": "Happy new year everyone <3"
+            }
+        ]
+    },
+    "02": {
+        "id": 2,
+        "organizerID": "1",
+        "status": 0,
+        "name": "Birthday Celebration",
+        "type": "Party and Get-Together",
+        "desc": "Celebrating my 22nd birthday soon. Fun and dinner together. See you there! :)",
+        "dateStart": "2024-02-26-13-00",
+        "dateEnd": "2024-02-26-20-00",
+        "participants": [
+            3
+        ],
+        "upvotes": [
+            "3"
+        ],
+        "reviews": [
+            {
+                "userID": "3",
+                "content": "Marianne always makes the best food! Absolutely recommend :)"
+            }
+        ]
+    },
+    "03": {
+        "id": 3,
+        "organizerID": "1",
+        "status": 3,
+        "name": "My Event",
+        "type": "Cool Event",
+        "desc": "Something will happen!",
+        "dateStart": "2024-01-12-13-00",
+        "dateEnd": "2024-01-12-17-00",
+        "participants": [
+            6,
+            5
+        ],
+        "upvotes": [
+            "6"
+        ],
+        "reviews": []
+    },
+    "04": {
+        "id": 4,
+        "organizerID": "6",
+        "status": 2,
+        "name": "My Event",
+        "type": "Cool Event",
+        "desc": "Something will happen!",
+        "dateStart": "2024-01-02-20-49",
+        "dateEnd": "2024-01-02-21-00",
+        "participants": [
+            5
+        ],
+        "upvotes": [],
+        "reviews": []
+    },
+    "05": {
+        "id": 5,
+        "organizerID": "6",
+        "status": 2,
+        "name": "My Event",
+        "type": "Cool Event",
+        "desc": "Something will happen!",
+        "dateStart": "2024-01-02-20-52",
+        "dateEnd": "2024-01-02-20-54",
+        "participants": [
+            5
+        ],
+        "upvotes": [],
+        "reviews": []
+    }
+}
